@@ -102,6 +102,7 @@ html {
 
 body {
   margin: 0;
+  overflow: auto;
 }
 
 /* Header Styles */
