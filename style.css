@@ -98,19 +98,10 @@
 html {
   font-family: Roboto, sans-serif;
   font-size: 16px;
-  overflow: hidden;
 }
 
 body {
   margin: 0;
-  overflow: hidden;
-}
-
-.container {
-  width: 100vw;
-  height: 100vh;
-  scroll-snap-type: y mandatory;
-  overflow-y: scroll;
 }
 
 /* Header Styles */
@@ -128,7 +119,6 @@ header {
   box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.5);
   -webkit-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.5);
   -moz-box-shadow: 0px 3px 6px 0px rgba(0, 0, 0, 0.5);
-  scroll-snap-align: center;
 }
 
 header .header-container {
@@ -176,7 +166,6 @@ main {
   justify-content: center;
   flex-direction: column;
   margin: auto;
-  scroll-snap-align: center;
 }
 
 main .main-container {
