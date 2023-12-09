@@ -256,6 +256,9 @@ main .main-button:hover {
 
 main .main-button:active {
   filter: brightness(70%);
+  box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.7);
+  -webkit-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 0px 6px 0px rgba(0, 0, 0, 0.7);
 }
 
 /* Footer Styles */
@@ -334,4 +337,7 @@ footer .social-media-button:hover {
 
 footer .social-media-button:active {
   filter: brightness(70%);
+  box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.7);
+  -webkit-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.7);
+  -moz-box-shadow: 0px 0px 3px 0px rgba(0, 0, 0, 0.7);
 }
